@@ -1,127 +1,130 @@
+<html>
 
-<!-- saved from url=(0060)http://www.cooltoons2.com/ginger/games/jumbled/printout.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-		
-		<meta name="generator" content="Adobe GoLive 5">
-		<title>Jumbled Puzzle Print Page</title>
-<script language="JavaScript">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="generator" content="Adobe GoLive 5">
+	<title>Jumbled Puzzle Print Page</title>
+	<script language="JavaScript">
+		var base = new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
+		var pass = ""
+		var z = 23;
+		var y = 28;
+		var f = new Array();
+		var K = new Array();
 
-<!-- Original:  Lefteris Haritou --> 
-<!-- Web Site:  lef@writeme.com> www.geocities.com/~lef -->
+		for (x = 0; x < 10; x++) {
+			f[x] = x << 9
+			f[x] += 23
+		}
 
-<!-- This script and many more are available free online at -->
-<!-- The JavaScript Source!! http://javascript.internet.com -->
+		for (x = 10; x < 36; x++) {
+			y = y << 1
+			v = Math.sqrt(y)
+			v = parseInt(v, 16)
+			v += 5
+			f[x] = v
+			y++
+		}
 
-<!-- Begin
-var base= new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9","A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z","a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
-var pass=""
-var z=23;
-var y=28;
-var f= new Array();
-var K= new Array();
-for (x=0; x<10; x++){
-f[x]=x<<9
-f[x]+=23
-}
-for (x=10; x<36; x++){
-y=y<<1
-v= Math.sqrt(y)
-v = parseInt(v,16)
-v+=5
-f[x]=v
-y++
-}
-for (x=36; x<62; x++){
-z=z<<1
-v= Math.sqrt(z)
-v = parseInt(v,16)
-v+=74
-f[x]=v
-z++
-}
-var iCounter = 3 //How many retries
-function inc(){
-iCounter--
-if (iCounter > 0)
-{
-if (confirm("\nSorry! That is incorrect.\n\n\n\nRetry?"))
-Check()
-else
-alert('Sorry, that is incorrect.');
-history.go(-1);
+		for (x = 36; x < 62; x++) {
+			z = z << 1
+			v = Math.sqrt(z)
+			v = parseInt(v, 16)
+			v += 74
+			f[x] = v
+			z++
+		}
 
-// You may use this element istead if you want.
-// location.href='denied.html' //Cancel html file
+		var iCounter = 3 //How many retries
 
-}
-else
-alert('Your three tries are up. Try again next time.');
-history.go(-1);
+		function inc() {
+			iCounter--
+			if (iCounter > 0) {
+				if (confirm("\nSorry! That is incorrect.\n\n\n\nRetry?")) Check()
+				else alert('Sorry, that is incorrect.');
+				history.go(-1);
 
-// You may use this element istead if you want.
-// location.href='denied.html' // 3 times incorrect html file
+				// You may use this element istead if you want.
+				// location.href='denied.html' //Cancel html file
 
-}
-function Check(){
-pass = prompt("What starts with an E, Ends with an E, and contains only one letter?","")
-if(pass==null || pass==""){
-history.go(-1)}
-else{
-var lpass=(pass.length)+1
-for (l=1; l<lpass; l++){
-K[l]=pass.charAt(l)
-}
-var code=0;
-for (y=1; y<lpass; y++){
-for(x=0; x<62; x++){
-if (K[y]==base[x]){
-code+=f[x]
-code*=y
-      }
-   }
-}
-if (code==340925123)
+			}
+			else alert('Your three tries are up. Try again next time.');
+			history.go(-1);
 
-go()
-else
-inc()
-   }
-}
-function go(){
-location.href=pass+".html";
-}
+			// You may use this element istead if you want.
+			// location.href='denied.html' // 3 times incorrect html file
+		}
+
+		function Check() {
+			pass = prompt("What starts with an E, Ends with an E, and contains only one letter?", "")
+			if (pass == null || pass == "") {
+				history.go(-1)
+			} else {
+				var lpass = (pass.length) + 1
+				for (l = 1; l < lpass; l++) {
+					K[l] = pass.charAt(l)
+				}
+				var code = 0;
+				for (y = 1; y < lpass; y++) {
+					for (x = 0; x < 62; x++) {
+						if (K[y] == base[x]) {
+							code += f[x]
+							code *= y
+						}
+					}
+				}
+
+				if (code == 340925123) go()
+				else inc()
+			}
+		}
+		function go() {
+			location.href = pass + ".html";
+		}
 // End -->
-</script>
-	<style>[_nghost-ejx-c52]{font-family:Open Sans,sans-serif;color:#121212}</style></head>
+	</script>
+	<style>
+		[_nghost-ejx-c52] {
+			font-family: Open Sans, sans-serif;
+			color: #121212
+		}
+	</style>
+</head>
 
-	<body bgcolor="#ffffff" link="#ef0000" vlink="#ef0000">
-		<div align="center">
-			<img src="./printout2_files/puzzle.gif" width="504" height="487" border="0">
-			<h2>Think you know the answer?<br>
-				<a href="javascript:Check()">CLICK HERE TO SEE IF YOU ARE RIGHT!<br>
-				</a>Be sure to print your answer in <i><u>all lowercase letters and don't include the word "AN" </u> </i>or the computer will say you're wrong (even if you're right!)</h2>
-		</div>
+<body bgcolor="#ffffff" link="#ef0000" vlink="#ef0000">
+	<div align="center">
+		<img src="./printout2_files/puzzle.gif" width="504" height="487" border="0">
+		<h2>Think you know the answer?<br>
+			<a href="javascript:Check()">CLICK HERE TO SEE IF YOU ARE RIGHT!<br>
+			</a>
+			Be sure to print your answer in
+			<i><u>all lowercase letters and don't include the word "AN" </u></i>
+			or the computer will say you're wrong (even if you're right!)
+		</h2>
+	</div>
+	<center>
+		<h3>
+			<a href="http://www.cooltoons.com/">
+				<font color="black"><img src="./printout2_files/CT01.gif" width="234" height="45" border="0"> </font>
+			</a>
+		</h3>
+		<h4>
+			<font color="black">Send your Klasky Csupo E-mail to:<br></font>
+			<font color="white"><a href="mailto:webmaster@klaskycsupo.com">Webmaster@klaskycsupo.com </a></font>
+		</h4>
 		<center>
-												<h3><a href="http://www.cooltoons.com/"><font color="black"><img src="./printout2_files/CT01.gif" width="234" height="45" border="0"></font></a></h3>
-												<h4><font color="black">Send your Klasky Csupo E-mail to:<br>
-													</font><font color="white"><a href="mailto:webmaster@klaskycsupo.com">Webmaster@klaskycsupo.com </a></font></h4>
-												<center>
-				<center>
-														<h4><font color="white"><a href="http://www.cooltoons.com/legal/privacypolicy.html">Privacy Policy</a> / <a href="http://www.cooltoons.com/legal/termsconditions.html">Terms and Conditions</a></font></h4>
-														<p></p>
-													</center>
-	<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 START -->
-<script type="text/javascript" src="./printout2_files/count.js.download"></script>
-<script type="text/javascript"><!--
-wm_custnum='de95676b93e9a76c';
-wm_page_name='printout.html';
-wm_group_name='/services/webpages/c/o/cooltoons2.com/public/ginger/games/jumbled';
-wm_campaign_key='campaign_id';
-wm_track_alt='';
-wiredminds.count();
-// -->
-</script>
-<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 END -->
+			<center>
+				<h4>
+					<font color="white">
+						<a href="http://www.cooltoons.com/legal/privacypolicy.html">Privacy Policy</a>
+						/
+						<a href="http://www.cooltoons.com/legal/termsconditions.html">Terms and Conditions</a>
+					</font>
+				</h4>
+				<p></p>
+			</center>
+		</center>
+	</center>
+</body>
 
-
-</center></center></body><app-content ng-version="14.2.0"></app-content></html>
+</html>

@@ -1,115 +1,134 @@
+<html>
 
-<!-- saved from url=(0043)http://www.cooltoons2.com/ginger/games/rps/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-		
-		<meta name="generator" content="Adobe GoLive 4">
-		<script language="JavaScript"><!--
-<!-- Based on code by:  Maximilian Stocker (maxstocker@reallyusefulcomputing.com) -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="generator" content="Adobe GoLive 4">
 
-<!-- Original:  Ronnie T. Moore -->
-<!-- Web Site:  The JavaScript Source -->
+	<script language="JavaScript">
+		function playGame(choice) {
+			with (document.game) {
+				comp = Math.round((Math.random() * 2) + 1);
+				var choicename;
+				if (comp == 1) choicename = "rock";
+				if (comp == 2) choicename = "paper";
+				if (comp == 3) choicename = "scissors";
+				msg.value = 'Carl chose ' + choicename + ';  ';
 
-<!-- This script and many more are available free online at -->
-<!-- The JavaScript Source!! http://javascript.internet.com -->
+				switch (choice) { // calculates score
+					case 1: // rock
+						if (comp == 1) { draw.value++; msg.value += 'It is a draw.'; break; }
+						if (comp == 2) { loss.value++; msg.value += 'You lost!'; break; }
+						if (comp == 3) { win.value++; msg.value += 'You won!'; break; }
+					case 2: // paper
+						if (comp == 1) { win.value++; msg.value += 'You won!'; break; }
+						if (comp == 2) { draw.value++; msg.value += 'It is a draw.'; break; }
+						if (comp == 3) { loss.value++; msg.value += 'You lost!'; break; }
+					case 3: // scissors
+						if (comp == 1) { loss.value++; msg.value += 'You lost!'; break; }
+						if (comp == 2) { win.value++; msg.value += 'You won!'; break; }
+						if (comp == 3) { draw.value++; msg.value += 'It is a draw.'; break; }
+				}
+				msg.value += '  Go again!';
+			}
+		}
+	</script>
+	<style>
+		[_nghost-nox-c52] {
+			font-family: Open Sans, sans-serif;
+			color: #121212
+		}
+	</style>
+</head>
 
-<!-- Begin
-function playGame(choice) {
-with (document.game) {
-comp = Math.round((Math.random() * 2) + 1); 
-var choicename;
-if (comp == 1) choicename = "rock";
-if (comp == 2) choicename = "paper";
-if (comp == 3) choicename = "scissors";
-msg.value = 'Carl chose ' + choicename + ';  ';
-
-switch(choice) { // calculates score
-case 1 : // rock
-         if (comp == 1) {  draw.value++; msg.value += 'It is a draw.'; break; }
-         if (comp == 2) {  loss.value++;  msg.value += 'You lost!';     break; }
-         if (comp == 3) {  win.value++; msg.value += 'You won!';      break; }
-case 2 : // paper
-         if (comp == 1) {  win.value++;  msg.value += 'You won!';      break; }
-         if (comp == 2) {  draw.value++; msg.value += 'It is a draw.'; break; }
-         if (comp == 3) {  loss.value++; msg.value += 'You lost!';     break; }
-case 3 : // scissors
-         if (comp == 1) {  loss.value++;  msg.value += 'You lost!';     break; }
-         if (comp == 2) {  win.value++; msg.value += 'You won!';      break; }
-         if (comp == 3) {  draw.value++; msg.value += 'It is a draw.'; break; }
-      }
-      msg.value += '  Go again!';
-   }
-}
-// -->
-		</script>
-	<style>[_nghost-nox-c52]{font-family:Open Sans,sans-serif;color:#121212}</style></head>
-
-	<body bgcolor="white" background="./www.cooltoons2.com_files/bg.gif" text="white" link="yellow" alink="yellow" vlink="yellow">
-		<center>
-			<h4><br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-			</h4>
-			<form name="game">
-				<div align="left">
-					<table border="0" cellpadding="5" cellspacing="0" width="496">
-						<tbody><tr height="98">
+<body bgcolor="white" background="./www.cooltoons2.com_files/bg.gif" text="white" link="yellow" alink="yellow"
+	vlink="yellow">
+	<center>
+		<h4>
+			<br><br><br><br><br>
+			<br><br><br><br><br>
+			<br><br><br><br><br>
+			<br>
+		</h4>
+		<form name="game">
+			<div align="left">
+				<table border="0" cellpadding="5" cellspacing="0" width="496">
+					<tbody>
+						<tr height="98">
 							<td width="486" height="98">
 								<div align="center">
-									<h4><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Carl and Hoodsey present an online version of the classic game of Rock, Paper, Scissors! If you want to challenge Carl, all you have to do is click on one of the three objects below. The rules are simple: Rock smashes scissors, Paper covers rock, and scissors cuts paper. The computer will automatically keep score to see who wins each round. Good luck!</font></h4>
+									<h4>
+										<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+											Carl and Hoodsey present an online version of the classic game of Rock, Paper, Scissors!
+											If you want to challenge Carl, all you have to do is click on one of the three objects below.
+											The rules are simple: Rock smashes scissors, Paper covers rock, and scissors cuts paper.
+											The computer will automatically keep score to see who wins each round.
+											Good luck!
+										</font>
+									</h4>
 								</div>
 							</td>
 						</tr>
-					</tbody></table>
-					<table border="1" cellpadding="5">
-						<tbody><tr>
+					</tbody>
+				</table>
+				<table border="1" cellpadding="5">
+					<tbody>
+						<tr>
 							<td align="center">User:</td>
-							<td align="center"><a href="javascript:void(0);" onclick="playGame(1);"><img src="./www.cooltoons2.com_files/rock.gif" width="154" height="240" border="0"></a></td>
-							<td align="center"><a href="javascript:void(0);" onclick="playGame(2);"><img src="./www.cooltoons2.com_files/paper.gif" width="154" height="240" border="0"></a></td>
-							<td align="center"><a href="javascript:void(0);" onclick="playGame(3);"><img src="./www.cooltoons2.com_files/scissors.gif" width="154" height="240" border="0"></a></td>
+							<td align="center">
+								<a href="javascript:void(0);" onclick="playGame(1);">
+									<img src="./www.cooltoons2.com_files/rock.gif" width="154" height="240" border="0">
+								</a>
+							</td>
+							<td align="center">
+								<a href="javascript:void(0);" onclick="playGame(2);">
+									<img src="./www.cooltoons2.com_files/paper.gif" width="154" height="240" border="0">
+								</a>
+							</td>
+							<td align="center">
+								<a href="javascript:void(0);" onclick="playGame(3);">
+									<img src="./www.cooltoons2.com_files/scissors.gif" width="154" height="240" border="0">
+								</a>
+							</td>
 						</tr>
 						<tr>
 							<td colspan="4" align="center"><input type="text" name="msg" size="45"></td>
 						</tr>
 						<tr>
-							<td colspan="4" align="center"><input type="text" name="win" readonly="" value="0" size="2"> Wins <input type="text" name="loss" readonly="" value="0" size="2"> Losses <input type="text" name="draw" readonly="" value="0" size="2"> Draws</td>
+							<td colspan="4" align="center">
+								<input type="text" name="win" readonly="" value="0" size="2">
+								Wins
+								<input type="text" name="loss" readonly="" value="0" size="2">
+								Losses
+								<input type="text" name="draw" readonly="" value="0" size="2">
+								Draws
+							</td>
 						</tr>
-					</tbody></table>
-				</div>
-			</form>
-			<p><img src="./www.cooltoons2.com_files/navbar.gif" width="413" height="23" border="0" usemap="#navbarb9e45525"><map name="navbarb9e45525"><area shape="rect" coords="311,3,408,18" href="mailto:webmaster@klaskycsupo.com"><area shape="rect" coords="208,4,305,19" href="http://www.cooltoons.com/"><area shape="rect" coords="104,4,201,19" href="http://www.cooltoons.com/shows/store"><area shape="rect" coords="3,3,100,18" href="http://www.cooltoons.com/ginger"></map></p>
-			<center>
-				<h5><a href="http://www.cooltoons.com/legal/privacypolicy.html">Privacy Policy</a> / <a href="http://www.cooltoons.com/legal/termsconditions.html">Terms and Conditions</a></h5>
-				<h5></h5>
-				<p>&nbsp;</p>
-			</center>
-			<p><font color="white">.</font></p>
+					</tbody>
+				</table>
+			</div>
+		</form>
+		<p>
+			<img src="./www.cooltoons2.com_files/navbar.gif" width="413" height="23" border="0" usemap="#navbarb9e45525">
+			<map name="navbarb9e45525">
+				<area shape="rect" coords="311,3,408,18" href="mailto:webmaster@klaskycsupo.com">
+				<area shape="rect" coords="208,4,305,19" href="http://www.cooltoons.com/">
+				<area shape="rect" coords="104,4,201,19" href="http://www.cooltoons.com/shows/store">
+				<area shape="rect" coords="3,3,100,18" href="http://www.cooltoons.com/ginger">
+			</map>
+		</p>
+		<center>
+			<h5>
+				<a href="http://www.cooltoons.com/legal/privacypolicy.html">Privacy Policy</a>
+				/
+				<a href="http://www.cooltoons.com/legal/termsconditions.html">Terms and Conditions</a>
+			</h5>
+			<h5></h5>
+			<p>&nbsp;</p>
 		</center>
-	<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 START -->
-<script type="text/javascript" src="./www.cooltoons2.com_files/count.js.download"></script>
-<script type="text/javascript"><!--
-wm_custnum='de95676b93e9a76c';
-wm_page_name='index.html';
-wm_group_name='/services/webpages/c/o/cooltoons2.com/public/ginger/games/rps';
-wm_campaign_key='campaign_id';
-wm_track_alt='';
-wiredminds.count();
-// -->
-</script>
-<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 END -->
+		<p>
+			<font color="white">.</font>
+		</p>
+	</center>
+</body>
 
-
-
-</body><app-content ng-version="14.2.0"></app-content></html>
+</html>
