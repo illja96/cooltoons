@@ -1,0 +1,207 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+  <meta name="generator" content="Adobe GoLive 4">
+  <title>Make The Story - As Told By Ginger</title>
+  <script language="JavaScript">
+    function makelib(form) {
+      msgWindow = window.open("", "msgWindow", "menubar=yes,scrollbars=yes,status=no,resizable=no")
+
+      msgWindow.document.open()
+
+      msgWindow.document.write("<HTML><HEAD><TITLE>Ginger's Diary</TITLE></HEAD>")
+      msgWindow.document.write("<BODY>")
+
+      //begin word lib
+
+      msgWindow.document.write("<h2> Ginger's Diary </h2><P>")
+      msgWindow.document.write("<h3> By  ", form.Name1.value, ". </h3><BR>")
+      msgWindow.document.write("<B>")
+
+      msgWindow.document.write("Dear diary: Today was a really ", form.Adjective1.value, " day! Not only did my friend ", form.Name2.value, " teach me how to ", form.Verb1.value, ", but I also got an invitation to Courtney's ", form.Noun1.value, "! ")
+
+      msgWindow.document.write("I'm really ", form.Emotion1.value, " about what to wear. My old ", form.Pluralnoun1.value, "  may be too ", form.Adjective2.value, " for Courtney and her friends. ")
+
+      msgWindow.document.write(" Just last week, Miranda was making fun of my ", form.Noun2.value, " and almost made me cry before Carl came along and threw a ", form.Noun3.value, " at her.  She tried to catch him for it, but he got away on his ", form.Noun4.value, ".  ")
+
+      msgWindow.document.write(" But both Miranda and my  ", form.Pluralnoun2.value, " are probably the least of my troubles. When I told Macie and Dodie about the ", form.Noun5.value, " they were happy for me, but I could tell they felt a little ", form.Emotion2.value, ".  ")
+
+      msgWindow.document.write("It's too bad that Courtney and her friends can't see how ", form.Adjective3.value, " Macie and Dodie are. They've ", form.Verb2.value, " me so many times in the past that I know they're my greatest ", form.Pluralnoun3.value, ". I don't want to leave them sitting around at ", form.Place.value, " while I get to go to the ", form.Noun6.value, ", but if ", form.Crush.value, " is going to be there, I just have to go!  <p>")
+      msgWindow.document.write("That's all for now, diary. My brother is banging on my ", form.Noun7.value, " with a giant ", form.Noun8.value, ". I better go see what he wants.  <p> ")
+
+      msgWindow.document.write("</B></body></html>")
+
+      msgWindow.document.close()
+
+    }
+  </script>
+  <style>
+    [_nghost-nmg-c52] {
+      font-family: Open Sans, sans-serif;
+      color: #121212
+    }
+  </style>
+</head>
+
+<body background="./bg3.gif">
+  <form>
+    <center>
+      <h5>&nbsp;</h5>
+    </center>
+    <center>
+      <h5>
+        <img src="./kcban1.gif" width="241" height="60" usemap="#kcban1" align="BOTTOM" naturalsizeflag="3" ismap="" border="0">
+        <map name="kcban1">
+          <area shape="rect" coords="0,2,240,59" href="http://www.klaskycsupo.com/">
+        </map>
+      </h5>
+    </center>
+    <center>
+      <h5>WARNING: This page only works on Netscape 2.0 or above and other JavaScript capable browsers.</h5>
+    </center>
+    <center>
+      <h1>Write In Ginger's Diary!</h1>
+    </center>
+    <center>
+      <p>
+      </p>
+      <hr>
+      <p></p>
+    </center>
+    <center>
+      <p><strong>Now is your chance to write an entry of your very own in Ginger's diary! </strong></p>
+    </center>
+    <center>
+      <p><img height="254" width="133" src="./ginger.gif"></p>
+    </center>
+    <center>
+      <p>
+      <table border="0" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td>Your Name:</td>
+            <td width="50%"><input type="text" name="Name1" size="20"></td>
+          </tr>
+          <tr>
+            <td>An Adjective:</td>
+            <td width="50%"><input type="text" name="Adjective1" size="20"></td>
+          </tr>
+          <tr>
+            <td>Your friend's name:</td>
+            <td width="50%"><input type="text" name="Name2" size="20"></td>
+          </tr>
+          <tr>
+            <td>A verb:</td>
+            <td width="50%"><input type="text" name="Verb1" size="20"></td>
+          </tr>
+          <tr>
+            <td>A noun:</td>
+            <td width="50%"><input type="text" name="Noun1" size="20"></td>
+          </tr>
+          <tr>
+            <td>An emotion:</td>
+            <td width="50%"><input type="text" name="Emotion1" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Plural Noun:</td>
+            <td width="50%"><input type="text" name="Pluralnoun1" size="20"></td>
+          </tr>
+          <tr>
+            <td>An Adjective:</td>
+            <td width="50%"><input type="text" name="Adjective2" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun:</td>
+            <td width="50%"><input type="text" name="Noun2" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun:</td>
+            <td width="50%"><input type="text" name="Noun3" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun:</td>
+            <td width="50%"><input type="text" name="Noun4" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Plural Noun</td>
+            <td width="50%"><input type="text" name="Pluralnoun2" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun</td>
+            <td width="50%"><input type="text" name="Noun5" size="20"></td>
+          </tr>
+          <tr>
+            <td>An emotion</td>
+            <td width="50%"><input type="text" name="Emotion2" size="20"></td>
+          </tr>
+          <tr>
+            <td>An adjective</td>
+            <td width="50%"><input type="text" name="Adjective3" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Verb (past tense)</td>
+            <td width="50%"><input type="text" name="Verb2" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Plural Noun</td>
+            <td width="50%"><input type="text" name="Pluralnoun3" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Place</td>
+            <td width="50%"><input type="text" name="Place" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun</td>
+            <td width="50%"><input type="text" name="Noun6" size="20"></td>
+          </tr>
+          <tr>
+            <td>A name of someone you have a crush on</td>
+            <td width="50%"><input type="text" name="Crush" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun</td>
+            <td width="50%"><input type="text" name="Noun7" size="20"></td>
+          </tr>
+          <tr>
+            <td>A Noun</td>
+            <td width="50%"><input type="text" name="Noun8" size="20"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td width="50%">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      </p>
+    </center>
+    <center>
+      <p>
+        <input type="button" value="Make Story" onclick="makelib(this.form)">
+        <input type="reset" value="Start Over">
+      </p>
+    </center>
+    <center>
+      <p></p>
+      <hr width="80%" size="5">
+      <p></p>
+    </center>
+    <center>
+      <p>&nbsp;</p>
+    </center>
+    <center>
+      <p></p>
+      <hr width="70%" size="5">
+      <p></p>
+    </center>
+    <center>
+      <p>&nbsp;</p>
+    </center>
+    <center>
+      <p></p>
+      <hr width="60%" size="5">
+    </center>
+  </form>
+</body>
+
+</html>
