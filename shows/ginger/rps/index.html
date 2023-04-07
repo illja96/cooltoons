@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="generator" content="Adobe GoLive 4">
+	<script language="JavaScript">
+		function playGame(choice) {
+			with (document.game) {
+				comp = Math.round((Math.random() * 2) + 1);
+				var choicename;
+				if (comp == 1) choicename = "rock";
+				if (comp == 2) choicename = "paper";
+				if (comp == 3) choicename = "scissors";
+				msg.value = 'Carl chose ' + choicename + ';  ';
+
+				switch (choice) { // calculates score
+					case 1: // rock
+						if (comp == 1) { draw.value++; msg.value += 'It is a draw.'; break; }
+						if (comp == 2) { loss.value++; msg.value += 'You lost!'; break; }
+						if (comp == 3) { win.value++; msg.value += 'You won!'; break; }
+					case 2: // paper
+						if (comp == 1) { win.value++; msg.value += 'You won!'; break; }
+						if (comp == 2) { draw.value++; msg.value += 'It is a draw.'; break; }
+						if (comp == 3) { loss.value++; msg.value += 'You lost!'; break; }
+					case 3: // scissors
+						if (comp == 1) { loss.value++; msg.value += 'You lost!'; break; }
+						if (comp == 2) { win.value++; msg.value += 'You won!'; break; }
+						if (comp == 3) { draw.value++; msg.value += 'It is a draw.'; break; }
+				}
+				msg.value += '  Go again!';
+			}
+		}
+	</script>
+	<style>
+		[_nghost-obf-c52] {
+			font-family: Open Sans, sans-serif;
+			color: #121212
+		}
+	</style>
+</head>
+
+<body bgcolor="white">
+	<center>
+		<img height="209" width="325" src="./title.gif">
+		<h3>Carl and Hoodsey present an online version of the classic game of Rock, Paper, Scissors! If you want to challenge Carl, all you have to do is click on one of the three objects below. The rules are simple: Rock smashes scissors, Paper covers rock, and scissors cuts paper. The computer will automatically keep score to see who wins each round. Good luck!</h3>
+		<p>
+		</p>
+		<form name="game">
+			<table border="1" cellpadding="5">
+				<tbody>
+					<tr>
+						<td align="center">User:</td>
+						<td align="center"><a href="javascript:void(0);" onclick="playGame(1);"><img src="./rock.gif" width="154" height="240" border="0"></a></td>
+						<td align="center"><a href="javascript:void(0);" onclick="playGame(2);"><img src="./paper.gif" width="154" height="240" border="0"></a></td>
+						<td align="center"><a href="javascript:void(0);" onclick="playGame(3);"><img src="./scissors.gif" width="154" height="240" border="0"></a></td>
+					</tr>
+					<tr>
+						<td colspan="4" align="center"><input type="text" name="msg" size="45"></td>
+					</tr>
+					<tr>
+						<td colspan="4" align="center"><input type="text" name="win" readonly="" value="0" size="2"> Wins <input type="text" name="loss" readonly="" value="0" size="2"> Losses <input type="text" name="draw" readonly="" value="0" size="2"> Draws</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		<p></p>
+		<p>
+			<font face="arial,helvetica" size="1">
+				Free JavaScripts provided<br>
+				by <a href="http://javascriptsource.com/">The JavaScript Source</a>
+			</font>
+		</p>
+		<p>
+			<a href="../">
+				<font face="arial,helvetica" size="1"><img height="269" width="170" src="./backto.gif" border="0"></font>
+			</a>
+		</p>
+		<p><img height="45" width="234" src="../../../CT01.gif"></p>
+		<p>
+			<font color="white">.</font>
+		</p>
+	</center>
+</body>
+
+</html>
