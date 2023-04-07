@@ -1,24 +1,6 @@
 <html>
 
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
-  <meta name="generator" content="Adobe GoLive 5">
-  <title>New Cooltoons Store Items!</title>
-  <style>
-    [_nghost-wxu-c52] {
-      font-family: Open Sans, sans-serif;
-      color: #121212
-    }
-  </style>
-    <script>
-      function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-      }
-    </script>
-</head>
-
-<body bgcolor="white">
-  <iframe id="iframe" onload="resizeIframe(this)"></iframe>
   <script>
     const srcArray = [
       "./october02.html",
@@ -27,9 +9,8 @@
     ];
     var index = Math.floor(Math.random() * srcArray.length);
     var src = srcArray[index];
-    var iFrame = document.getElementById('iframe');
-    iFrame.src = src;
+    window.location.replace(src);
   </script>
-</body>
+</head>
 
 </html>
