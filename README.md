@@ -21,7 +21,7 @@ Seems to be original mirror domain. Registered by the same company and hosted on
 
 ## Pages status
 Legend:
-- ✅ restore and in fully working condition
+- ✅ restore and in fully working condition including dependent paged and SWF components
 - ⚠️ restore partially or some functionality broken/mission
 - ❌ not restored at the moment
 
@@ -57,9 +57,21 @@ Version | Page | Sub-page | Sub-page
 Late 2002
 ^ | ✅ [Ginger](https://illja96.github.io/cooltoons/shows/ginger)
 ^ | ^ | ✅ [Character bios](https://illja96.github.io/cooltoons/shows/ginger/bios)
-^ | ^ | ⚠️ [Fashion](https://illja96.github.io/cooltoons/shows/fashion/bios) (copied from latest version)
+^ | ^ | ⚠️ [Fashion](https://illja96.github.io/cooltoons/shows/ginger/bios) (copied from latest version)
 ^ | ^ | ✅ [Episodes](https://illja96.github.io/cooltoons/shows/ginger/episodes)
 ^ | ^ | ⚠️ [Slam book](https://illja96.github.io/cooltoons/shows/ginger/slam) (images missing) (user answer paged merged from parts)
 ^ | ^ | ✅ [Rock, Paper, Scissors](https://illja96.github.io/cooltoons/shows/ginger/rps)
 ^ | ^ | ⚠️ [Coloring](https://illja96.github.io/cooltoons/shows/ginger/coloring) (printable versions copied from latest version)
 ^ | ^ | ✅ [Make the story](https://illja96.github.io/cooltoons/shows/rugrats/madlibs/lib_atbg.shtml)
+Legal
+^ | ✅ [Privacy Policy](https://illja96.github.io/cooltoons/legal/termsconditions.html)
+^ | ✅ [Release](https://illja96.github.io/cooltoons/legal/termsconditions.html)
+^ | ✅ [Terms and Conditions](https://illja96.github.io/cooltoons/legal/termsconditions.html)
+Newsletter & ads
+^ | ✅ [Newsletter Permission Form](https://illja96.github.io/cooltoons/newsletter/permission.html)
+^ | ✅ [Popup](https://illja96.github.io/cooltoons/newsletter/permission.html)
+^ | ✅ [Newsletter Permission Form](https://illja96.github.io/cooltoons/newsletter/popup.html)
+^ | ⚠️ [Ads](https://illja96.github.io/cooltoons/aniads) (custom page: redirects to the random ads page)
+^ | ✅ [October 2002 ads](https://illja96.github.io/cooltoons/aniads/popup.html)
+^ | ✅ [Christmas ads](https://illja96.github.io/cooltoons/aniads/pillows2.html)
+^ | ⚠️ [Halloween ads](https://illja96.github.io/cooltoons/aniads/thanksgiving.html) (missing image)
