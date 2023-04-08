@@ -26,19 +26,20 @@ Legend:
 - ❌ not restored at the moment
 
 Version | Page | Sub-page | Sub-page | Notes
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 [Latest](https://illja96.github.io/cooltoons)
-^ | ⚠️ [Klasky Csupo](http://www.klaskycsupo.com) | Out of scope. Redirection from SWF broken because site lacks HTTPS support
+^ | ⚠️ [Klasky Csupo](http://www.klaskycsupo.com) | | | Out of scope. Redirection from SWF broken because site lacks HTTPS support
 ^ | ❌ Rugrats
 ^ | ❌ Wild Thornberrys
 ^ | ❌ Rocket Power
 ^ | ✅ [As Told By Ginger](https://illja96.github.io/cooltoons/ginger)
-^ | As Told By Ginger | Fun and Games | ✅ [Rock, Paper, Scissors](https://illja96.github.io/cooltoons/ginger/games/rps)
-^ | As Told By Ginger | Fun and Games | ⚠️ [Make The Story](https://illja96.github.io/cooltoons/ginger/games/story) | Copied copied from late 2002 version because no data was found
-^ | As Told By Ginger | Fun and Games | ✅ [Jumbled Puzzle](https://illja96.github.io/cooltoons/ginger/games/jumbled)
-^ | As Told By Ginger | Fun and Games | ✅ [Fortune Teller](https://illja96.github.io/cooltoons/ginger/games/fortune)
-^ | As Told By Ginger | Fun and Games | ✅ Klasky Csupo Trivia (redirects)
-^ | As Told By Ginger | Fun and Games | ✅ Would You Rather Game (redirects)
+^ | As Told By Ginger | Fun and Games
+^ | ^ | ^ | ✅ [Rock, Paper, Scissors](https://illja96.github.io/cooltoons/ginger/games/rps)
+^ | ^ | ^ | ⚠️ [Make The Story](https://illja96.github.io/cooltoons/ginger/games/story) | Copied copied from late 2002 version because no data was found
+^ | ^ | ^ | ✅ [Jumbled Puzzle](https://illja96.github.io/cooltoons/ginger/games/jumbled)
+^ | ^ | ^ | ✅ [Fortune Teller](https://illja96.github.io/cooltoons/ginger/games/fortune)
+^ | ^ | ^ | ✅ Klasky Csupo Trivia | Redirects to Klasky Csupo trivia page inside Various Games
+^ | ^ | ^ | ✅ Would You Rather Game | Redirects to As Told By Ginger trivia page inside Various Games
 ^ | ❌ All Grown Up
 ^ | ❌ McDonalds
 ^ | ❌ Real Monsters
@@ -57,11 +58,11 @@ Version | Page | Sub-page | Sub-page | Notes
 Late 2002
 ^ | ✅ [Ginger](https://illja96.github.io/cooltoons/shows/ginger)
 ^ | ^ | ✅ [Character bios](https://illja96.github.io/cooltoons/shows/ginger/bios)
-^ | ^ | ⚠️ [Fashion](https://illja96.github.io/cooltoons/shows/ginger/fashion) | Characters SWF components on pages was copied from latest version because no data was found
+^ | ^ | ⚠️ [Fashion](https://illja96.github.io/cooltoons/shows/ginger/fashion) | | Characters SWF components on pages was copied from latest version because no data was found
 ^ | ^ | ✅ [Episodes](https://illja96.github.io/cooltoons/shows/ginger/episodes)
-^ | ^ | ⚠️ [Slam book](https://illja96.github.io/cooltoons/shows/ginger/slam) | Some images and backgrounds missing. User answer pages was merged from separate parts into single page
+^ | ^ | ⚠️ [Slam book](https://illja96.github.io/cooltoons/shows/ginger/slam) | | Some images and backgrounds missing. User answer pages was merged from separate parts into single page
 ^ | ^ | ✅ [Rock, Paper, Scissors](https://illja96.github.io/cooltoons/shows/ginger/rps)
-^ | ^ | ⚠️ [Coloring](https://illja96.github.io/cooltoons/shows/ginger/coloring) | Printable versions was replaced from GIF to PDF copied from latest version because no data was found
+^ | ^ | ⚠️ [Coloring](https://illja96.github.io/cooltoons/shows/ginger/coloring) | | Printable versions was replaced from GIF to PDF copied from latest version because no data was found
 ^ | ^ | ✅ [Make the story](https://illja96.github.io/cooltoons/shows/rugrats/madlibs/lib_atbg.shtml)
 Legal
 ^ | ✅ [Privacy Policy](https://illja96.github.io/cooltoons/legal/termsconditions.html)
@@ -71,7 +72,7 @@ Newsletter & ads
 ^ | ✅ [Newsletter Permission Form](https://illja96.github.io/cooltoons/newsletter/permission.html)
 ^ | ✅ [Popup](https://illja96.github.io/cooltoons/newsletter/permission.html)
 ^ | ✅ [Newsletter Permission Form](https://illja96.github.io/cooltoons/newsletter/popup.html)
-^ | ⚠️ [Ads](https://illja96.github.io/cooltoons/aniads) | Custom page: redirects to the random ads page
+^ | ⚠️ [Ads](https://illja96.github.io/cooltoons/aniads) | | | Custom page: redirects to the random ads page
 ^ | ✅ [October 2002 ads](https://illja96.github.io/cooltoons/aniads/popup.html)
 ^ | ✅ [Christmas ads](https://illja96.github.io/cooltoons/aniads/pillows2.html)
-^ | ⚠️ [Halloween ads](https://illja96.github.io/cooltoons/aniads/thanksgiving.html) | Missing ads image
+^ | ⚠️ [Halloween ads](https://illja96.github.io/cooltoons/aniads/thanksgiving.html) | | | Missing ads image
