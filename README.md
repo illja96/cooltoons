@@ -47,8 +47,8 @@ Version | Page | Sub-page | Sub-page | Notes
 ^ | ❌ Duckman
 ^ | ❌ Stressed Eric
 ^ | ✅ [Various Games](https://illja96.github.io/cooltoons/various)
-^ | ^ | ✅ Would you rather
-^ | ^ | ✅ Art lessons
+^ | ^ | ✅ [Would you rather](https://illja96.github.io/cooltoons/various/wouldyourather/index.html)
+^ | ^ | ✅ [Art lessons](https://illja96.github.io/cooltoons/various/artlessons/main.html)
 ^ | ^ | ✅ [Trivia](https://illja96.github.io/cooltoons/various/trivia/index.html)
 ^ | ^ | ^ | ✅ [Rugrats](https://illja96.github.io/cooltoons/various/trivia/rugrats.html)
 ^ | ^ | ^ | ✅ [Wild Thornberrys](https://illja96.github.io/cooltoons/various/trivia/wildthornberrys.html)
